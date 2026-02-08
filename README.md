@@ -6,14 +6,15 @@ and selects a winner after a time delay to distribute the prize and mint an NFT,
 # PuppyRaffle Smart Contract Audit
 
 ## Overview
-This repository contains a security audit of the **PuppyRaffle** smart contract.
+This repository contains a security audit of the **ai-puppy-raffle**  smart contract.
 The goal of the audit is to identify security vulnerabilities, logic flaws, and design risks.
 
-## Summary
-- Identified weak randomness in winner selection
-- Found MEV-based refund griefing risk
-- Detected denial-of-service risk due to unbounded loops
-- Highlighted admin foot-guns and edge cases
+## Summary of Findings
+- High severity issues related to weak randomness
+- Medium severity MEV and denial-of-service risks
+- Low severity edge cases involving zero-address winners
+- Informational design and configuration improvements
+- Gas optimization opportunities
 
 ## Files
 - `report.pdf` — Full professional audit report
